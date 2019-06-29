@@ -4,7 +4,8 @@
   "description": "A LevelDB adapter for LapisDB",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rimraf dist && tsc"
   },
   "repository": {
     "type": "git",
@@ -31,6 +32,7 @@
   "devDependencies": {
     "@types/encoding-down": "^5.0.0",
     "@types/leveldown": "^4.0.0",
-    "@types/levelup": "^3.1.1"
+    "@types/levelup": "^3.1.1",
+    "rimraf": "^2.6.3"
   }
 }
