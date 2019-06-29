@@ -22,6 +22,15 @@
   },
   "homepage": "https://github.com/kekland/lapisdb-level-adapter#readme",
   "dependencies": {
-    "lapisdb": "^0.2.3"
+    "encoding-down": "^6.1.0",
+    "lapisdb": "^0.3.0",
+    "level": "^5.0.1",
+    "leveldown": "^5.1.1",
+    "levelup": "^4.1.0"
+  },
+  "devDependencies": {
+    "@types/encoding-down": "^5.0.0",
+    "@types/leveldown": "^4.0.0",
+    "@types/levelup": "^3.1.1"
   }
 }
