@@ -1,6 +1,6 @@
 {
   "name": "lapisdb-level-adapter",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "description": "A LevelDB adapter for LapisDB",
   "main": "dist/index.js",
   "scripts": {
